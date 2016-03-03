@@ -1,0 +1,155 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+body {
+    
+background: lightgrey;    
+margin: 0;
+    
+}
+
+.link-title {
+    
+text-decoration: none;
+font-size: 24px;
+color: #444;
+    
+}
+
+
+
+.container {
+    
+    width: 780px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.header {
+
+padding: 30px 0 20px 40px;
+
+    
+}
+
+.menu {
+    
+background: blue;  
+padding: 6px 0 6px 40px;
+    
+}
+
+.menu a {
+    
+ color: aliceblue;
+ text-decoration: none;
+ font-size: 14px;
+ font-family: "Arial Narrow", "myriad Pro";
+      
+    
+}
+
+.menu a:hover {
+    
+    color: darkgray;
+    
+}
+
+
+h2 {
+    
+color: blue;
+font-size: 15px;
+margin: 20px 0 5px 0;
+    
+}
+
+.main {
+    
+margin: 0 0 0 75px;
+padding: 35px 40px 30px 0;
+color:black;
+font-family:"Georgia";
+font-size: 13px;
+line-height: 18px;
+text-align: justify;
+    
+}
+
+.main a: #hover {
+    
+color: #444444;    
+    
+}
+
+#home-image {
+    
+width: 100%;
+height: 400px;
+
+    
+}
+
+footer {
+    
+padding: 3px 40px 3px 40px;
+background: blue;
+font-family: "Lucidea Sans Unicode";
+color: aliceblue;
+font-size: 11px;
+text-decoration: right;
+    
+}
+
+footer a {
+    
+text-decoration: none;
+color: #262626;
+    
+}
+
+.separator {
+    
+color: #FFFFFF;
+font-size: 11px;
+    
+}
+
+
+
+#about-page #about-image {
+    
+width: 70%;
+float:left;
+margin-bottom: 20px;
+
+}
+
+#about-page #profile-info {
+    
+float: inherit;
+width: 20%;
+margin: 0px;
+    
+}
+
+#about-page .description {
+    
+    clear: both;
+    margin-top: 29px;
+    
+}
